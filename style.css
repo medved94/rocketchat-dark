@@ -187,10 +187,6 @@ textarea {
     background: var(--selected-row-background);
 }
 
-.role-tag {
-    color: var(--color-dark);
-}
-
 .mention-link.mention-link-me,
 .message .mention-link.mention-link-me {
     background: var(--mention-link-background);
@@ -201,12 +197,15 @@ textarea {
     box-shadow: 0 3px 1px 2px rgba(255, 255, 255, 0.1);
 }
 
-.rcx-box--full, .rcx-message__container, .rcx-message__username, .rcx-box {
+.rcx-box--full, .rcx-message__container, .rcx-message__username {
     background: var(--color-darkest);
     color: var(--color-white) !important;
 }
 
-.rcx-box:hover {
-    background: var(--color-darkest);
-    color: var(--color-white);
+.rcx-box:hover, .rcx-message__username:hover {
+    background-color: var(--color-darkest);
+}
+
+.role-tag {
+    color: var(--color-dark);
 }
