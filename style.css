@@ -209,3 +209,13 @@ textarea {
 .role-tag {
     color: var(--color-dark);
 }
+
+.background-component-color, .message-actions {
+    color: var(--color-white);
+    background-color: var(--color-dark-light);
+    border: 2px solid var(--color-dark-light);
+}
+
+.color-primary-action-color {
+    color: var(--color-white);
+}
