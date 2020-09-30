@@ -34,6 +34,8 @@
     --mention-link-background: #04c;
     --mention-link-me-text-color: white;
     --mention-link-me-background: red;
+    --mention-link-group-text-color: white;
+    --mention-link-group-background: red;
 }
 
 /* Syntax highlighting rules. */
