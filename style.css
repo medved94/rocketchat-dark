@@ -36,6 +36,7 @@
     --mention-link-me-background: red;
     --mention-link-group-text-color: white;
     --mention-link-group-background: red;
+    --custom-scrollbar-color: var(--color-dark-medium);
 }
 
 /* Syntax highlighting rules. */
