@@ -224,3 +224,13 @@ textarea {
 .color-primary-action-color {
     color: var(--color-white);
 }
+
+ul.reactions > li {
+    height: 39px !important;
+}
+
+.emojione, .emoji {
+    width: 35px !important; 
+    height: 35px !important;
+    margin-top: 1px !important;
+}
